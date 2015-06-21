@@ -1,2 +1,2 @@
 <?php
- echo "hallo world";
+include 'bootstrap.php';

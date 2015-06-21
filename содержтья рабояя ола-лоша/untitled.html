@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>1234567890</title>
+   <meta charset="utf-8">
+ </head>
+ <body>
+      <form action="action.php" method="post">
+ <p>Ваше имя: <input type="text" name="name" /></p>
+ <p>Ваш возраст: <input type="text" name="age" /></p>
+ <p><input type="submit" /></p>
+</form>
+<?php
+     <?php echo htmlspecialchars($_POST['name']);  echo (int)$_POST['age']; ?>
+</body>
